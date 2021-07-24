@@ -2,5 +2,6 @@
 
 a=10
 b=20
+ADD=$((a+b))
 # shellcheck disable=SC1036
-echo "addition of a&b" ("$a+$b")
+echo ADD of 2 numbers $ADD
